@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Environment variables / secrets
+.env
+*.env
+
+# Databases
+*.db
+*.sqlite3
+
+# Streamlit
+.streamlit/
+
+# Raw large data files (keep processed CSVs, not raw PDFs)
+data/raw/*.pdf
+data/raw/*.zip
+
+# OS/editor junk
+.DS_Store
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
